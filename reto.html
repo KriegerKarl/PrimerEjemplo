@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<!--this is a cooment, con este encabezado, el navegador entendera que esta trabajando con HTML5-->
+<!DOCTYPE html>
+<!--este el el contenedor-->
+<html lang="es"> <!--permite escribir en español, si alguna pagina llegara en ingles permite que el navegador la traduzca-->
+    <!--esta es (contenedor)la etiqueta del head-->
+    <head>
+        <!--head y body son etiquetas hermanas. En head va todo aquello que no es visible para el usuario-->
+        <!--En head va todo lo que es importante para el navegador, para poder cargar el navegador de la forma 
+            como lo estructuramos, todas las dependencias, las fuentes, EL CSS tiene que ir en el head, que es donde
+            se los manda llamar. En el body va todo lo que el usuario puede ver, el texto, los videos, etc -->
+        <!--Analogia con el cuerpo humano EL head es el cerebro, las conexiones nerviosas, en el body va los visible 
+            del cuerpo humano-->
+        <meta charset="UTF-8"> <!--SE PUEDE UTILIZAR EMOGIS O CARACTERES ESPECIAL Y LOS VA A TRATAR COMO TAL-->
+        <meta name="description" 
+        content="Investigación, ciencia, tecnologia, proyectos, sensores, IoT "> <!--Ayuda a que las personas encuentren una descripcion de la pagina-->
+        <meta name="robots" content="index,follow"><!--ayuda a los robots del navegador para el posicionamiento del contenido de nuestra pagina
+        permitiendo que sea encontrada mas rapido por los usuarios-->
+        <title> Guerrero S.A</title>
+        <!--meta muy importante para los proyectos responsive, trata de que las paginas deben verse igual 
+        en todos los dispositivos, pueda escalarce a un dispositivo mobile-->
+        <meta name="viewport" conten="width=device-width, initial-scale=1.0"> <!--es el tamaño de la pantalla-->
+        <!--rel es para indicar que se usa una hoja de estilo, para colocar el archivo de referencia en donde esta 
+        el CSS se coloca ./ e indica el path del archivo-->
+        <link rel="stylesheet" href="">
+        
+    </head>
+    <body>
+        <!--hay dos tipos de etiquetas, de contenido y contenedoras, las contenedoras ayudan a generar la 
+        estructura, mientras que las de contenido son las de texto, imagenes, video que se van a poder 
+        reenderizar en el proyecto -->
+        <!--etiquetas contenedoras-->
+        <header>
+  
+            <!--es un encabezado, esta es la etiqueta contenedora que se debe hacer-->
+            <nav>
+                <!--esta es la etiqueta que me permite crear la barra de navegacion-->
+
+
+            </nav>
+
+
+        </header>
+        <!--me permite trabajar en una area principal, es decir despues del header y del navegador
+        va el texto principal -->
+        <main>
+            <p> Soy la lista del super mercado</p>
+            <!--dentro del main pueden ir secciones-->
+            <section>
+
+                <article>
+
+                </article>
+
+            </section>
+            <!--tambien pueden ir listas-->
+            <!--ul significa unorder list-->
+            <ul>
+                <!--li es list ident, me permite agrgar texto-->
+                <li>Frutas</li>
+                <ol>
+                    <li>    Manzanas</li>
+                    <li>    Platano</li>
+                </ol>
+                <li>Carnes</li>
+                <ol>
+                    <li>    Pollo.</li>
+                    <li>    Carne Molida.</li>
+                </ol>
+                <li>Verduras</li>
+                <ol>
+                    <li>    Limón.</li>
+                    <li>    
+                        <a href="https://www.youtube.com/watch?v=fmQOsZJ_nqE"> Zanahoria</a>
+
+                    </li>
+
+                </ol>
+            </ul>
+
+        </main>
+        <footer>
+
+        </footer>
+
+        <!--se convierte en un comodin, malas practica dice aue hacian todo dentro de un div-->
+       <!--<div>--> 
+
+
+       <!--</div>--> 
+       <!--P es de parrafo-->
+       <p>Hola hombre, espero que no estes perdiendo el tiempo, es decir, que continues con el curso y lo termines</p>
+       <!-- h1 es un  titulo, entonces cambia el tamaño de la letra, h6 es un tamaño mas pequeño-->
+      
+       <!--esta es una etiqueta de ancla o de linking. Se coloca el numeral para que no intente 
+        refrescarme la pagina, sino llevarme al link, en este caso me lleva o me deja en la misma pagina-->
+        <a href="#">Este es un link</a>
+
+    </body>
+
+
+</html>
